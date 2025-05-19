@@ -17,7 +17,7 @@ load_dotenv()
 # model = GeminiModel("gemini-2.0-flash")
 model = OpenAIModel(
     'deepseek-chat',
-    provider=DeepSeekProvider(api_key='sk-3444787dc6e6429db5ef0d3afa793a4b'),
+    provider=DeepSeekProvider(api_key=''),
 )
 
 agent = Agent(model,
